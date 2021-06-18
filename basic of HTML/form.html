@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        
+        <form action="" method="GET">
+            <legend></legend>
+            <div>
+                <label for="user">Username</label><br>
+                <input type="text" id="user"name="user" value="" required placeholder="Username">
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="abc@example.com">
+            </div>
+            <div>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" name="password" required placeholder="Password">
+            </div>
+            <div>
+                <label for="cont">Country</label><br>
+                <input type="text" id="cont" value="India" name="country" required disabled>
+            </div>
+            <div>
+                <label for="num">Qunatity</label><br>
+                <input type="number" id="num" name="num" required placeholder="0000">
+            </div>
+            <div>
+                <label for="range">Range</label><br>
+                <input type="range" name="range" id="range" min="10" max="50" step="5">
+            </div>
+            <div>
+                <label for="">time</label>&nbsp; &nbsp;
+                <input type="time" name="time" ><br>
+                <label for="">date</label>&nbsp; &nbsp;
+                <input type="date" name="date" >
+            </div>
+            <div>
+                <fieldset style="display: inline;">
+                    <legend>gender</legend>
+                    <input type="radio" name="gender" value="male" checked>
+                    <label for="">male</label> <br>
+                    <input type="radio" name="gender" value="female">
+                    <label for="">female</label>
+                </fieldset>
+            </div> 
+            <div>
+                <fieldset style="display: inline;">
+                    <legend>Course</legend>
+                    <input type="checkbox" name="lang" value="C++">
+                    <label for=""  >C++</label><br>
+                    <input type="checkbox" name="lang" value="JAVA">
+                    <label for="">JAVA</label><br>
+                    <input type="checkbox" name="web dev" value="Web Dev">
+                    <label for="">Web Development</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="join">Joining month</label>
+                <select name="join" id="join">
+                    <option value="NA">---SELECT---</option>
+                    <option value="jan">jan</option>
+                    <option value="feb">feb</option>
+                    <option value="march">march</option>
+                    <option value="april">april</option>
+                </select>
+            </div>
+            <div>
+                <label for="exprience">Share Your Exprience</label>
+                <textarea name="exprience" id="exprience" cols="30" rows="10"></textarea>
+                <input type="button" value="Button">
+                <button type="reset">reset</button>
+                <button type="submit">submit</button>
+            </div>
+            <div><input type="submit"></div>
+        </form>
+    </body>
+</html>
