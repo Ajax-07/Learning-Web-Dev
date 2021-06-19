@@ -1,0 +1,100 @@
+
+body{
+    padding: 20px;
+}
+nav{
+    padding: 20px;
+}
+nav img{
+    height: 50px;
+    width: 100px;
+   
+} 
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: tomato;
+}
+
+header img{
+    width: 100%;
+}
+main{
+    margin-top: 10px;
+    display: flex;
+}
+
+.left-side{
+    background-color: aquamarine;
+    width: 15%;
+    padding: 10px;
+}
+.content{
+    padding: 5px;
+    font-weight: bold;
+    width: 60%;
+}
+.content img{
+   width: 100%;
+}
+.content h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: crimson;
+    font-size: 1.8rem;
+}
+.right-side{
+    padding: 5px;
+    width: 25%;
+}
+.subscribe{
+    border-top: 4px solid black;
+}
+
+form input{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    width: 70%;
+}
+#submit{
+    width: fit-content;
+    font-size: 15px;
+    font-weight:bold ;
+    background-color: black;
+    color: #fffefe;
+}
+#submit:hover{
+background-color: #ffffff;
+color: black;
+}
+.recent{
+    border-top: 4px solid black;
+    font-weight: bold;
+    color: tomato;
+}
+.recent h3{
+    color:black;
+    text-transform: uppercase;
+}
+.search{
+    border-top: 4px solid black;
+    padding: 5px;
+    height: 100px;
+}
+.search input{
+    margin-top: 40px;
+    height: 25px;
+    width: 70%;
+    border: 2px solid;
+}
+.search button{
+    background-color: tomato;
+    position: absolute;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: 40px;
+    border: 2px solid;
+}

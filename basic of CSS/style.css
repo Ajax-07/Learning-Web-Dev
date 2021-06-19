@@ -1,0 +1,45 @@
+a{
+    color: goldenrod;
+}
+a{
+    color: #ff008c;
+}
+
+.head{
+    color: green;
+}
+h1{
+    color: #ff008c;
+}
+.head{
+    color: goldenrod;
+}
+.main{
+    font-size: 50px;
+}
+
+#list{
+    color: #3a5097;
+    font-size: 20px;
+}
+
+/* ............demo.html................ */
+.para{
+    color: rgb(26, 10, 10); /*not this*/
+}
+#paraid{
+    color: #ff008c;   /* this will be applied*/
+}
+.para{
+    color: rgb(77, 255, 71); /*not this*/
+}
+
+.btn{
+    background-color: royalblue;
+    color: #0e0d0d;
+    font-size: large;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
