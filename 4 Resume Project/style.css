@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+      margin:0px;
+      padding:0px;
+  }
+header{
+    height: 60vh;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+   
+}
+/* ...........Nav......... */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav{
+  text-align: center;
+  font-size: 1.7rem;
+}
+nav ul li{
+    display: inline-block;
+    margin : 20px; 
+}
+nav ul li a{
+    color: #ca9f05;
+}
+
+header {
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+}
+ .social-link ul{
+    margin-right: 30px;
+}
+ .social-link ul li{
+    display: inline;
+    margin-left: 10px;
+}
+.social-link ul li:hover{
+    border-bottom: 3px solid tomato;
+}
+
+/* .............. Main ................. */
+h2{
+    color: #025075;
+    text-align: center;
+    font-size: 2rem;
+}
+p{
+    font-size: 1.4rem;
+    color: #464545;
+    font-weight: bold;
+}
+main{
+    padding-left:5%;
+    padding-right:5%;
+}
+/* about */
+.about{
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    text-align: center;
+}
+.about img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+    border: 5px solid white;
+}
+h3{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: tomato;
+    text-decoration: underline;
+}
+/* skills */
+.skills,.work-exp, .edu, .portfolio{
+    border-top: 3px solid #616161;
+    margin-bottom: 25px;
+}
+.skills-category{
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 32%;
+    height: 50vh;
+    display: inline-block;
+    vertical-align: top;
+}
+.skills-category ul li{
+    padding-top: 15px;
+    font-size: large;
+    margin-top: 20px;
+}
+#bar{
+    float: left;
+    background-color: #bebebd;
+    width: 90%;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+#rating{
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border-radius: 25px;
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+/* .......................Footer....................... */
+footer{
+    background-color: #222121;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    vertical-align: top;
+}
+footer div{
+    text-align: center;
+    color: white;
+    width: 33%;
+    height: 100%;
+    padding: 20px;
+}
+footer .social-link{
+    margin-top: 25px;
+}
+.contact{
+    padding: 35px;
+}
+footer p{
+    margin: 0;
+    color: white;
+}

@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 75vh;
+    width: 75vw;
+    font-size: 2.5rem;
+    background-color: cyan; 
+    display: flex; 
+    /* flex-direction: column;   */
+    /* flex-direction: row;   */
+    /* flex-direction: row-reverse;   */
+    /* flex-direction: column-reverse;   */
+}
+.div1{
+    width: 25%;
+    height: 25%;
+    order: 1;
+    background-color: red;
+}
+.div2{
+    order: -3;
+    width: 25%;
+    height: 25%;
+    background-color: green;
+}
+.div3{
+    orphans: 1;
+    width: 25%;
+    height: 25%;
+    background-color: purple;
+}
+.div4{
+    order: -6;
+    width: 25%;
+    height: 25%;
+    background-color: yellow;
+}
